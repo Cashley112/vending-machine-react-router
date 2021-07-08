@@ -7,7 +7,7 @@ class Sardines extends Component {
         return(
             <div className='Sardines'>
                 <h1>Sardine Eat You!</h1>
-                <Link to='/'>Back Home</Link>
+                <Link to='/'>Go Back</Link>
             </div>
         )
     }

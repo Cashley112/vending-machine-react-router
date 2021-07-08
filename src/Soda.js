@@ -7,7 +7,7 @@ class Soda extends Component {
         return(
             <div className='Soda'>
                 <h1>Soda Is Bad For You</h1>
-                <Link to='/'>Back Home</Link>
+                <Link to='/'>Go Back</Link>
             </div>
         )
     }
