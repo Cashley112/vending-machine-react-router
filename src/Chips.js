@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import './Chips.css';
 
 class Chips extends Component {
@@ -6,6 +7,7 @@ class Chips extends Component {
         return(
             <div className='Chips'>
                 <h1>How Many chip you want?</h1>
+                <Link to='/'>Back Home</Link>
             </div>
         )
     }
