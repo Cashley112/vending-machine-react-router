@@ -6,8 +6,10 @@ class Sardines extends Component {
     render() {
         return(
             <div className='Sardines'>
-                <h1>Sardine Eat You!</h1>
-                <Link to='/'>Go Back</Link>
+                <div className='Sardines-block'>
+                    <h1>Sardine Eat You!</h1>
+                    <Link className='Sardines-link' to='/'>Go Back</Link>
+                </div>
             </div>
         )
     }

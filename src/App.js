@@ -5,6 +5,7 @@ import Soda from './Soda';
 import Chips from './Chips';
 import Sardines from './Sardines';
 import VendingMachine from './VendingMachine';
+import Navbar from './Navbar';
 
 class App extends Component {
   constructor(props) {
@@ -20,12 +21,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Navbar />
         <Switch>
           <Route exact path ='/' component={VendingMachine} />
           <Route exact path ='/soda' component={Soda} />
           <Route 
             exact path ='/chips' 
-            render={() => <Chips handleClick={this.incBagsEaten} bagsEaten={this.state.numBagsEaten}/>} 
+            render={() => <Chips 
+              handleClick={this.incBagsEaten} 
+              bagsEaten={this.state.numBagsEaten} 
+              />} 
           />
           <Route exact path ='/sardines' component={Sardines} />
         </Switch>

@@ -3,6 +3,7 @@
     font-weight: 700;
     font-size: 15px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;

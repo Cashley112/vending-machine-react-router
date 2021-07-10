@@ -9,3 +9,20 @@
     align-items: center;
     color: white;
 }
+.Sardines-block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.Sardines-link {
+    color: red;
+    text-decoration: none;
+}
+.Sardines-link:hover {
+    opacity: 0.75;
+    text-decoration: underline;
+}
