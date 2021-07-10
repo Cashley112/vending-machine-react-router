@@ -8,6 +8,8 @@ class Soda extends Component {
             <div className='Soda'>
                 <h1>Soda Is Bad For You</h1>
                 <Link to='/'>Go Back</Link>
+                <img className="Soda-img1" alt="soda can" src="https://png.pngitem.com/pimgs/s/41-414658_cold-coca-cola-can-hd-png-download.png"/>
+                <img className="Soda-img2" alt="soda can" src="https://png.pngitem.com/pimgs/s/41-414658_cold-coca-cola-can-hd-png-download.png"/>
             </div>
         )
     }
